@@ -3,5 +3,5 @@
  // Run the script 
  if ( $_POST['payload'] ) 
 { 
-	shell_exec("./pull.sh"); 
+	`git pull`
 }
